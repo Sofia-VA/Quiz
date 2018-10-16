@@ -1,0 +1,38 @@
+<ion-header>
+
+    <ion-navbar>
+      <ion-title style="text-align:center">Televisión</ion-title>
+    </ion-navbar>
+  
+  </ion-header>
+  
+  
+  <ion-content padding>
+  
+      <ion-item>
+          <ion-label>Televisión</ion-label>
+          <ion-toggle checked="false"></ion-toggle>
+       </ion-item>
+     
+      <ion-item>
+       <ion-row>
+         <ion-col>
+            <ion-card >
+              <ion-card-header>
+               <p style="text-align:center">Channel -</p>
+             </ion-card-header>
+           </ion-card>
+           </ion-col>
+           <ion-col>
+            <ion-card (click)="Sclick()">
+              <ion-card-header>
+                <p style="text-align:center">Channel +</p>
+              </ion-card-header>
+           </ion-card>
+           </ion-col>
+         </ion-row>
+         
+      </ion-item>
+  
+  </ion-content>
+  
